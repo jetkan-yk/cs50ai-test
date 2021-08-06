@@ -2,13 +2,13 @@
 
 ## 🤷‍♂️ What's this? 🤷‍♀️
 
-This repository contains Python scripts to automate tests for most of the [CS50 AI projects](https://cs50.harvard.edu/ai/2020/).</br>
+This repository contains Python scripts to automate tests for most of the [CS50’s Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/2020/) projects.</br>
 
-It **does not** contain any project *solution*/*spoiler*, as per the course's [Academic Honesty policy](https://cs50.harvard.edu/ai/2020/honesty/). Students who are taking this course can safely use these Python script to test their code before (re-)submission.
+It **does not** contain any project *solution*/*spoiler*, as per the course's [Academic Honesty policy](https://cs50.harvard.edu/ai/2020/honesty/). Students who are taking this course **can safely** use these Python script to test their code before (re-)submissions.
 
 ## ⛔ Disclaimer
 
-This is a student-initiated project. Passing these test cases **does not** guarantee that you will receive a full grade from the CS50 AI teaching team.
+This is a student-initiated project. Passing these test cases **does not** guarantee that you will receive a full grade from the official CS50 AI's teaching team.
 
 ## 📖 Table of Contents
 
@@ -34,11 +34,12 @@ This is a student-initiated project. Passing these test cases **does not** guara
 
 - Run `pytest -s` to show print statements in the console
 - Run `pytest -vv` for verbose mode
-- Install `pyrepeat` with `pip` and then run `pytest --count n` to repeat the test for *n* times
+- Combine both flags `pytest -s -vv` for extra verbose mode
+- Install `pytest-repeat` with `pip` and then run `pytest --count n` to repeat the test for *n* times
 
 ## 💻 My Setup
 
-Each test case should take less than 30 seconds, depending on Python's I/O and your code efficiency.
+Each test should take less than 30 seconds, depending on Python's I/O and your code efficiency.
 
 - Windows 10 Home Build 19042
 - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
