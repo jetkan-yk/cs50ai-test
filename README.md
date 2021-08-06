@@ -4,7 +4,7 @@
 
 This repository contains Python scripts to automate tests for most of the CS50 AI projects. It **does not** contain *solution*/*spoiler* to the projects, as per the course's [Academic Honesty policy](https://cs50.harvard.edu/ai/2020/honesty/). Students who are taking this course are allowed to use these Python script to test their code before (re-)submission.
 
-## :trollface: Disclaimer
+## ⛔ Disclaimer
 
 This is a student-initiated project. Passing these test cases **does not** guarantee that you will receive a full grade from the HavardX teaching team.
 
@@ -12,7 +12,7 @@ This is a student-initiated project. Passing these test cases **does not** guara
 
 | Week                                           | Lecture                                     | Concept                                                                                  | Name                                                                    | Test Case                                  |
 | ---------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ |
-| [0](https://cs50.harvard.edu/ai/2020/weeks/0/) | [Search](https://youtu.be/WbzNRTTrX0g)      | [BFS](https://cs50.harvard.edu/ai/2020/notes/0/#breadth-first-search)                    | [Degrees](https://cs50.harvard.edu/ai/2020/projects/0/degrees/)         | [degrees_test.py](degrees_test.py)         |
+| [0](https://cs50.harvard.edu/ai/2020/weeks/0/) | [Search](https://youtu.be/WbzNRTTrX0g)      | [Breadth First Search](https://cs50.harvard.edu/ai/2020/notes/0/#breadth-first-search)   | [Degrees](https://cs50.harvard.edu/ai/2020/projects/0/degrees/)         | [degrees_test.py](degrees_test.py)         |
 | [0](https://cs50.harvard.edu/ai/2020/weeks/0/) | [Search](https://youtu.be/WbzNRTTrX0g)      | [Minimax](https://cs50.harvard.edu/ai/2020/notes/0/#minimax)                             | [Tic-Tac-Toe](https://cs50.harvard.edu/ai/2020/projects/0/tictactoe/)   | [tictactoe_test.py](tictactoe_test.py)     |
 | [1](https://cs50.harvard.edu/ai/2020/weeks/1/) | [Knowledge](https://youtu.be/HWQLez87vqM)   | [Model Checking](https://cs50.harvard.edu/ai/2020/notes/1/#inference)                    | [Knights](https://cs50.harvard.edu/ai/2020/projects/1/knights/)         | [puzzle_test.py](puzzle_test.py)           |
 | [1](https://cs50.harvard.edu/ai/2020/weeks/1/) | [Knowledge](https://youtu.be/HWQLez87vqM)   | [Knowledge Engineering](https://cs50.harvard.edu/ai/2020/notes/1/#knowledge-engineering) | [Minesweeper](https://cs50.harvard.edu/ai/2020/projects/1/minesweeper/) | [minesweeper_test.py](minesweeper_test.py) |
