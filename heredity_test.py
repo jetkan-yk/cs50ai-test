@@ -1,7 +1,7 @@
 """
 Regression tests for heredity.py
 
-Make sure that you placed this file in the same directory as heredity.py!
+Make sure that this file is in the same directory as heredity.py!
 
 'Why do we fall sir? So that we can learn to pick ourselves up.'
                                         - Batman Begins (2005)
