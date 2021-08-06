@@ -8,7 +8,7 @@ Make sure that you placed this file in the same directory as degrees.py!
 """
 from degrees import load_data, person_id_for_name, shortest_path
 
-load_data("small")
+load_data("large")
 
 
 def test_two_degrees():
