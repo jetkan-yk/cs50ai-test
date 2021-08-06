@@ -2,7 +2,7 @@
 
 ## 🤷‍♂️ What's this? 🤷‍♀️
 
-This repository contains Python scripts to automate tests for most of the CS50 AI projects. It **does not** contain *solution*/*spoiler* to the projects, as per the course's [Academic Honesty policy](https://cs50.harvard.edu/ai/2020/honesty/). Students who are taking this course are allowed to use these Python script to test their code before (re-)submission.
+This repository contains Python scripts to automate tests for most of the CS50 AI projects. It **does not** contain any project *solution*/*spoiler*, as per the course's [Academic Honesty policy](https://cs50.harvard.edu/ai/2020/honesty/). Students who are taking this course are **allowed** to use these Python script to test their code before (re-)submission.
 
 ## ⛔ Disclaimer
 
@@ -10,7 +10,7 @@ This is a student-initiated project. Passing these test cases **does not** guara
 
 ## 📖 Table of Contents
 
-| Week                                           | Lecture                                     | Concept                                                                                  | Name                                                                    | Test Case                                  |
+| Week                                           | Lecture                                     | Concept                                                                                  | Project                                                                 | Test Script                                |
 | ---------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ |
 | [0](https://cs50.harvard.edu/ai/2020/weeks/0/) | [Search](https://youtu.be/WbzNRTTrX0g)      | [Breadth First Search](https://cs50.harvard.edu/ai/2020/notes/0/#breadth-first-search)   | [Degrees](https://cs50.harvard.edu/ai/2020/projects/0/degrees/)         | [degrees_test.py](degrees_test.py)         |
 | [0](https://cs50.harvard.edu/ai/2020/weeks/0/) | [Search](https://youtu.be/WbzNRTTrX0g)      | [Minimax](https://cs50.harvard.edu/ai/2020/notes/0/#minimax)                             | [Tic-Tac-Toe](https://cs50.harvard.edu/ai/2020/projects/0/tictactoe/)   | [tictactoe_test.py](tictactoe_test.py)     |
@@ -21,7 +21,7 @@ This is a student-initiated project. Passing these test cases **does not** guara
 
 ## 🛠️ How to Run Tests
 
-1. Make sure you have [Python3](https://www.python.org/downloads/) installed in your machine. Anything above `Python 3.4` should work.
+1. Make sure you have [Python3](https://www.python.org/downloads/) installed in your machine. Anything above `Python 3.4+` should work.
 2. Install `pytest` by running `pip install pytest` in a terminal. More information about `pip` [here](https://realpython.com/what-is-pip/).
 3. Make a copy of the test file and paste it in the **same folder** as the project that you want to test.
     > For example, if you want to test your code for `degrees.py`, make a copy of `degrees_test.py` in the **same folder** as your `degrees.py` and other files that came along with the project, like `util.py`, `large/` and `small/`.
