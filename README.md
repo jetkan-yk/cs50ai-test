@@ -2,11 +2,12 @@
 
 ## 🤷‍♂️ What's this? 🤷‍♀️
 
-This repository contains Python scripts to automate tests for most of the CS50 AI projects. It **does not** contain any project *solution*/*spoiler*, as per the course's [Academic Honesty policy](https://cs50.harvard.edu/ai/2020/honesty/). Students who are taking this course are **allowed** to use these Python script to test their code before (re-)submission.
+This repository contains Python scripts to automate tests for most of the CS50 AI projects.</br>
+It **does not** contain any project *solution*/*spoiler*, as per the course's [Academic Honesty policy](https://cs50.harvard.edu/ai/2020/honesty/). Students who are taking this course can safely use these Python script to test their code before (re-)submission.
 
 ## ⛔ Disclaimer
 
-This is a student-initiated project. Passing these test cases **does not** guarantee that you will receive a full grade from the HavardX teaching team.
+This is a student-initiated project. Passing these test cases **does not** guarantee that you will receive a full grade from the CS50 AI teaching team.
 
 ## 📖 Table of Contents
 
