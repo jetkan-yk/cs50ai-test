@@ -14,10 +14,10 @@ load_data("large")
 def test_two_degrees():
     source = person_id_for_name("Jennifer Lawrence")
     target = person_id_for_name("Tom Hanks")
-    assert shortest_path(source, target) == 2
+    assert len(shortest_path(source, target)) == 2
 
 
 def test_three_degrees():
     source = person_id_for_name("Emma Watson")
     target = person_id_for_name("Jennifer Lawrence")
-    assert shortest_path(source, target) == 3
+    assert len(shortest_path(source, target)) == 3
