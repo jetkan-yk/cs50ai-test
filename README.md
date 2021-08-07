@@ -30,6 +30,10 @@ This is a student-initiated project. Passing these test cases **does not** guara
 4. Navigate to the project folder and run `pytest` or `pytest <project>_test.py` in a terminal.
     > For example, navigate to `degrees/` and run `pytest` or `pytest degrees_test.py`.
 
+### Example
+
+![example](https://user-images.githubusercontent.com/36299141/128583985-a56b4371-a092-430a-8c08-4483137367d6.png)
+
 ## 🚩 Useful pytest Flags
 
 - Run `pytest -s` to show print statements in the console
