@@ -4,7 +4,7 @@
 
 This repository contains Python scripts to automate tests for most of the [CS50’s Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/2020/) projects.</br>
 
-It **does not** contain any project *solution*/*spoiler*, as per the course's [Academic Honesty policy](https://cs50.harvard.edu/ai/2020/honesty/). 
+It **does not** contain any project *solution*/*spoiler*, as per the course's [Academic Honesty policy](https://cs50.harvard.edu/ai/2020/honesty/).
 
 ## ⛔ Disclaimer
 
