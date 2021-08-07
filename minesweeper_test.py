@@ -24,7 +24,7 @@ expectedWinPercent = 85
 
 @pt.mark.parametrize("execution_number", range(10))
 def test(execution_number):
-    play1000()
+    return play1000()
 
 
 # Helper functions

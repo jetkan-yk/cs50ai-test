@@ -29,7 +29,7 @@ def test_family0():
 
     predicted = predict_family(0)
 
-    compare(predicted, expected)
+    return compare(predicted, expected)
 
 
 # Helper functions
