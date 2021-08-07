@@ -19,7 +19,7 @@ This is a student-initiated project. Passing these test cases **does not** guara
 | [Knowledge](https://cs50.harvard.edu/ai/2020/weeks/1/)   | [Model Checking](https://cs50.harvard.edu/ai/2020/notes/1/#inference)                    | [Knights](https://cs50.harvard.edu/ai/2020/projects/1/knights/)         | [puzzle_test.py](puzzle_test.py)           | Checks the correctness of the 4 puzzle results            |
 | [Knowledge](https://cs50.harvard.edu/ai/2020/weeks/1/)   | [Knowledge Engineering](https://cs50.harvard.edu/ai/2020/notes/1/#knowledge-engineering) | [Minesweeper](https://cs50.harvard.edu/ai/2020/projects/1/minesweeper/) | [minesweeper_test.py](minesweeper_test.py) | Checks if your AI has ≈90% win rate over 1000 simulations |
 | [Uncertainty](https://cs50.harvard.edu/ai/2020/weeks/2/) | [Bayesian Networks](https://cs50.harvard.edu/ai/2020/notes/2/#bayesian-networks)         | [Heredity](https://cs50.harvard.edu/ai/2020/projects/2/heredity/)       | [heredity_test.py](heredity_test.py)       | Runs 1 test case given by problem description             |
-| [Uncertainty](https://cs50.harvard.edu/ai/2020/weeks/2/) | [Markov Models](https://cs50.harvard.edu/ai/2020/notes/2/#markov-models)                 | [PageRank](https://cs50.harvard.edu/ai/2020/projects/2/pagerank/)       | *Work in Progress*                         | Compares the output of the 2 implemented functions        |
+| [Uncertainty](https://cs50.harvard.edu/ai/2020/weeks/2/) | [Markov Models](https://cs50.harvard.edu/ai/2020/notes/2/#markov-models)                 | [PageRank](https://cs50.harvard.edu/ai/2020/projects/2/pagerank/)       | [pagerank_test.py](pagerank_test.py)       | Compares the output of the 2 implemented functions        |
 
 ## 🛠️ How to Run Tests
 
