@@ -6,11 +6,9 @@ Make sure that this file is in the same directory as heredity.py!
 'Why do we fall sir? So that we can learn to pick ourselves up.'
                                         - Batman Begins (2005)
 """
-import pytest as pt
-
 from heredity import joint_probability, load_data, normalize, powerset, update
 
-PRECISION = 1e-4
+PRECISION = 4
 
 
 def test_family0():
@@ -71,4 +69,7 @@ def predict_family(n):
 def compare(predicted, expected):
     for kPerson, vPerson in predicted.items():
         for kVariable, vVariable in vPerson.items():
-            assert vVariable == pt.approx(expected[kPerson][kVariable], abs=PRECISION)
+            for kOutcome, vOutcome in vVariable.items():
+                assert (
+                    round(vOutcome, PRECISION) == expected[kPerson][kVariable][kOutcome]
+                )
