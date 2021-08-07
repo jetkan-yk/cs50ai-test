@@ -12,8 +12,8 @@ import pytest as pt
 
 from pagerank import DAMPING, crawl, iterate_pagerank, sample_pagerank
 
-TOLERANCE = 1e-2  # Error tolerance = ±0.01 when comparing sample and iterate results
-SAMPLES = 100000  # More samples => better result
+TOLERANCE = 1e-3  # Error tolerance = ±0.001 when comparing sample and iterate results
+SAMPLES = 10 ** 6  # More samples => better result
 
 corpus0 = crawl("corpus0")
 
