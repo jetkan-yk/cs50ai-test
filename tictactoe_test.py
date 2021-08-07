@@ -16,7 +16,7 @@ import tictactoe as ttt
 
 @pt.mark.parametrize("execution_number", range(10))
 def test(execution_number):
-    play_ai_vs_ai()
+    assert play_ai_vs_ai()
 
 
 # Helper function
@@ -31,4 +31,4 @@ def play_ai_vs_ai():
         board = ttt.result(board, move)
         game_over = ttt.terminal(board)
 
-    assert ttt.winner(board) is None
+    return ttt.winner(board) is None

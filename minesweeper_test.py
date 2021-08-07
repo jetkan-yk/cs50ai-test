@@ -24,7 +24,7 @@ expectedWinPercent = 85
 
 @pt.mark.parametrize("execution_number", range(10))
 def test(execution_number):
-    play1000()
+    assert play1000()
 
 
 # Helper functions
@@ -37,7 +37,7 @@ def play1000():
 
     print(f"\nWin rate:{totalWon // 10}%")
 
-    assert totalWon >= expectedWinPercent * 10
+    return totalWon >= expectedWinPercent * 10
 
 
 def play():
