@@ -32,6 +32,68 @@ def test_family0():
     return compare(predicted, expected)
 
 
+def test_family1():
+    expected = {
+        "Arthur": {
+            "gene": {2: 0.0329, 1: 0.1035, 0: 0.8636},
+            "trait": {True: 0.0000, False: 1.0000},
+        },
+        "Charlie": {
+            "gene": {2: 0.0018, 1: 0.1331, 0: 0.8651},
+            "trait": {True: 0.0000, False: 1.0000},
+        },
+        "Fred": {
+            "gene": {2: 0.0065, 1: 0.6486, 0: 0.3449},
+            "trait": {True: 1.0000, False: 0.0000},
+        },
+        "Ginny": {
+            "gene": {2: 0.0027, 1: 0.1805, 0: 0.8168},
+            "trait": {True: 0.1110, False: 0.8890},
+        },
+        "Molly": {
+            "gene": {2: 0.0329, 1: 0.1035, 0: 0.8636},
+            "trait": {True: 0.0000, False: 1.0000},
+        },
+        "Ron": {
+            "gene": {2: 0.0027, 1: 0.1805, 0: 0.8168},
+            "trait": {True: 0.1110, False: 0.8890},
+        },
+    }
+
+    predicted = predict_family(1)
+
+    return compare(predicted, expected)
+
+
+def test_family2():
+    expected = {
+        "Arthur": {
+            "gene": {2: 0.0147, 1: 0.0344, 0: 0.9509},
+            "trait": {True: 0.0000, False: 1.0000},
+        },
+        "Hermione": {
+            "gene": {2: 0.0608, 1: 0.1203, 0: 0.8189},
+            "trait": {True: 0.0000, False: 1.0000},
+        },
+        "Molly": {
+            "gene": {2: 0.0404, 1: 0.0744, 0: 0.8852},
+            "trait": {True: 0.0768, False: 0.9232},
+        },
+        "Ron": {
+            "gene": {2: 0.0043, 1: 0.2149, 0: 0.7808},
+            "trait": {True: 0.0000, False: 1.0000},
+        },
+        "Rose": {
+            "gene": {2: 0.0088, 1: 0.7022, 0: 0.2890},
+            "trait": {True: 1.0000, False: 0.0000},
+        },
+    }
+
+    predicted = predict_family(2)
+
+    return compare(predicted, expected)
+
+
 # Helper functions
 
 
