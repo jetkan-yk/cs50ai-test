@@ -19,7 +19,7 @@ expectedWinPercent = 85
 # Run the AI test for 10 times. Each test consists of letting the AI play
 # minesweeper for 1000 rounds. If the inference function is implemented correctly,
 # each test should have a very high win rate (≈90%) in most of the iterations.
-# Use`pytest -s` to see win rate.
+# Use `pytest -s` to see win rate.
 
 
 @pt.mark.parametrize("execution_number", range(10))
