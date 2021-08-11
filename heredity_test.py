@@ -1,5 +1,5 @@
 """
-Regression tests for heredity.py
+Acceptance tests for heredity.py
 
 Make sure that this file is in the same directory as heredity.py!
 

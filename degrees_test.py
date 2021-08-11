@@ -1,5 +1,5 @@
 """
-Regression tests for degrees.py
+Acceptance tests for degrees.py
 
 Make sure that this file is in the same directory as degrees.py!
 

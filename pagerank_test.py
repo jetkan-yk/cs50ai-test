@@ -1,5 +1,5 @@
 """
-Regression tests for pagerank.py
+Acceptance tests for pagerank.py
 
 Make sure that this file is in the same directory as pagerank.py!
 

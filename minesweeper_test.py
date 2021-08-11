@@ -1,5 +1,5 @@
 """
-Regression tests for minesweeper.py
+Acceptance tests for minesweeper.py
 
 Make sure that this file is in the same directory as minesweeper.py!
 

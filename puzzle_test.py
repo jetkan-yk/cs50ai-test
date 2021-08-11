@@ -1,5 +1,5 @@
 """
-Regression tests for puzzle.py
+Acceptance tests for puzzle.py
 
 Make sure that this file is in the same directory as puzzle.py!
 

@@ -1,5 +1,5 @@
 """
-Regression tests for generate.py
+Acceptance tests for generate.py
 
 Make sure that this file is in the same directory as generate.py!
 

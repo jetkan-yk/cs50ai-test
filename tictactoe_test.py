@@ -1,5 +1,5 @@
 """
-Regression tests for tictactoe.py
+Acceptance tests for tictactoe.py
 
 Make sure that this file is in the same directory as tictactoe.py!
 
