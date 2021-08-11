@@ -11,6 +11,10 @@ from heredity import joint_probability, load_data, normalize, powerset, update
 PRECISION = 4
 
 
+# Test cases provided by Naveena A S. Thank you!
+# source: https://edstem.org/us/courses/176/discussion/488564?answer=1263763
+
+
 def test_family0():
     expected = {
         "Harry": {

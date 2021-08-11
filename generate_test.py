@@ -30,8 +30,9 @@ def test(execution, i, j):
         assert len(assignment) == len(crossword.variables)
 
 
-# Special test case written by Ricardo L. If the backtracking search and inference
-# algorithm is implemented correctly, this crossword should be solved in 5s.
+# Special test case written by Ricardo L. Thank you!
+# If the backtracking search and inference algorithm are implemented correctly,
+# this crossword should be solved in 5 seconds.
 
 # source: https://edstem.org/us/courses/176/discussion/103609?answer=280445
 

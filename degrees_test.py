@@ -10,7 +10,8 @@ from degrees import load_data, person_id_for_name, shortest_path
 
 load_data("large")
 
-# source: https://edstem.org/us/courses/176/discussion/226814
+# Most test cases provided by Ken Walker. Thank you!
+# source: https://edstem.org/us/courses/176/discussion/226814?answer=546980
 
 
 def test0():
