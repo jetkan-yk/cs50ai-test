@@ -42,7 +42,7 @@ This is a student-initiated project. Passing these test cases **does not** guara
 - Run `pytest -s` to show print statements in the console
 - Run `pytest -vv` for verbose mode
 - Combine both flags `pytest -s -vv` for extra verbose mode
-- Run `pytest --duration=n` to see the `n` slowest execution time
+- Run `pytest --durations=n` to see the `n` slowest execution time
 - Install `pytest-repeat` with `pip` and then run `pytest --count n` to repeat the test for *n* times
 
 ## 💻 My Setup
