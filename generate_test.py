@@ -8,8 +8,9 @@ Make sure that this file is in the same directory as generate.py!
 """
 import pytest
 
-from generate import CrosswordCreator
-from generate_unit_test import generate_crossword, invalid_crossword
+from generate import Crossword, CrosswordCreator
+
+invalid_crossword = [(1, 0), (2, 0)]  # These 2 combinations will not work
 
 # Pro tip: run `pytest --durations=10` to see the 10 slowest executions
 
@@ -36,3 +37,10 @@ def generate_output(creator, assignment, file):
     else:
         creator.print(assignment)
         creator.save(assignment, file)
+
+
+def generate_crossword(i, j):
+    structure = f"data/structure{i}.txt"
+    words = f"data/words{j}.txt"
+    print(f"\nTesting structure{i} words{j}")
+    return Crossword(structure, words)
