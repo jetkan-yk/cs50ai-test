@@ -56,4 +56,14 @@ Each test should take less than 30 seconds, depending on Python's I/O and your c
 
 ## 🤹 Improvement
 
-I am currently auditing this course (no certificate bearing, just interested in AI and Brian's teaching style), more solutions and test cases will be added in the near future!
+I am currently auditing this course, more solutions and test cases will be added in the near future!</br>
+
+Feel free to [create an issue](https://github.com/jetkan-yk/cs50ai-test/issues/new) if you want to contribute to the repo!
+
+## 🏆 Acknowledgement
+
+Special thanks to these fellow CS50AI classmates who contributed some of the test cases on the [Ed discussion site](https://edstem.org/us/courses/176/discussion/)!
+
+- Ken Walker
+- Naveena A S
+- Ricardo L
