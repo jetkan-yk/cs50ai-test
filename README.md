@@ -2,7 +2,7 @@
 
 ## 🤷‍♂️ What's this? 🤷‍♀️
 
-This repository contains Python scripts to automate tests for most of the [CS50’s Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/2020/) projects.</br>
+This repository contains Python scripts to automate tests for most of the [CS50’s Introduction to Artificial Intelligence with Python projects](https://github.com/jetkan-yk/cs50ai).</br>
 
 It **does not** contain any project *solution*/*spoiler*, as per the course's [Academic Honesty policy](https://cs50.harvard.edu/ai/2020/honesty/).
 
@@ -55,12 +55,6 @@ Each test should take less than 30 seconds, depending on Python's I/O and your c
 - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
 - Python 3.9.5 64-bit
 - Visual Studio Code w/Pylance (latest release)
-
-## 🤹 Improvement
-
-I am currently auditing this course, more solutions and test cases will be added in the near future!</br>
-
-Feel free to [create an issue](https://github.com/jetkan-yk/cs50ai-test/issues/new) if you want to contribute to the repo!
 
 ## 🏆 Acknowledgement
 
